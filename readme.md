@@ -71,19 +71,20 @@ To translate the test set and print the translations:
 
 # Translate the test set
 translate_and_print_test_set(...)
+```
 Usage
 To use the trained model for translation, load the model checkpoint and call the translation function:
 
 # Load the best model state
 checkpoint = torch.load(best_model_path)
-
+```
 # Translate sentences
 translations = translate_and_print_test_set(...)
+```
+
 Contributions
 Contributions to this project are welcome. Please fork the repository and submit a pull request.
 
 License
-This project is open-sourced under the MIT License. See the LICENSE file for more information.
+This project is open-sourced under the Apache v2.0 License. See the LICENSE file for more information.
 
-
-This README provides a basic outline for the project, including setup instructions, data preprocessing, model training and evaluation, and usage. It assumes that the user has access to the specified files and the Google Colab environment. The actual code for model training and translation functions is not included in the README, as it is typically part of the repository's codebase.
