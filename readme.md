@@ -70,15 +70,18 @@ Translation
 To translate the test set and print the translations:
 
 # Translate the test set
+```python
 translate_and_print_test_set(...)
 ```
 Usage
 To use the trained model for translation, load the model checkpoint and call the translation function:
 
 # Load the best model state
+```python
 checkpoint = torch.load(best_model_path)
 ```
 # Translate sentences
+```python
 translations = translate_and_print_test_set(...)
 ```
 
