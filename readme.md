@@ -1,5 +1,5 @@
 # Machine Translation (EN to DE) using PyTorch
-
+ 
 This repository contains the code for a machine translation model that translates text from English to German. The model is implemented using PyTorch and trained on a subset of the Europarl Parallel Corpus.
 
 ## Project Structure
